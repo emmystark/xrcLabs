@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600;6..12,700&display=swap");
+
+:root {
+  /* background color */
+  --body-bg: #ffffff;
+
+  /* text color */
+  --text-color: #030229;
+  --secondary-text-color: #818194;
+  --white-text-color: #fff;
+
+  /* button color */
+  --btn-color: #605bff;
+  --btn-bg: rgb(172, 169, 255, 100);
+  --success-color: #3a974c;
+  --danger-color: #d11a2a;
+}
+
+.project-tables .project-btn {
+  background-color: var(--btn-color);
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  color: var(--white-text-color);
+  font-size: 18px;
+}
+
+.overflow-auto {
+  height: 840px !important;
+  overflow: auto !important;
+  padding: 0 10px;
+}
